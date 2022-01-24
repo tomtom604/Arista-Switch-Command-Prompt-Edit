@@ -7,6 +7,11 @@ Test environment uses VirtualBox and 3 Arista VMs, all of which must be configur
 2. Username and secret set (you will be asked to use these credentials in the program)
 3. (On your PC) add a Legacy loopback network adaptor, and make bridged connection on the three VMs to this adapter
 
+Inside this repository edit the "IPaddress.txt" file with your IP addresses each on it's own line.
+
+Execute in CMD Prompt by using the "python" command and the directory of the "NetworkApp.py" 
+
+
 Arista CLI commands:
 
 enable
@@ -64,9 +69,3 @@ ip address 10.10.10.4 255.255.255.0
 no shutdown
 
 copy run start
-
-
-
-Inside this repository edit the "IPaddress.txt" file with your IP addresses each on it's own line.
-
-Execute in CMD Prompt by using the "python" command and the directory of the "NetworkApp.py" 
